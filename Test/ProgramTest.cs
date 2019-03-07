@@ -8,13 +8,13 @@ namespace Test
         [Fact]
         public void Program_Donald()
         {
-            Assert.Equal("Duck", Program.GetFirstName(StudentType.Donald));
+            Assert.Equal("Duck", Program.GetFirstName(Student.Donald));
         }
 
         [Fact]
         public void Program_Mickey()
         {
-            Assert.Equal("Mouse", Program.GetFirstName(StudentType.Mickey));
+            Assert.Equal("Mouse", Program.GetFirstName(Student.Mickey));
         }
     }
 }
